@@ -91,7 +91,6 @@ To run the application, deploy the WAR file to the WildFly server and start the 
 - **Maven**
 - **WildFly**
 - **MySQL**
-- **JUnit**
 
 ## Contributing
 
