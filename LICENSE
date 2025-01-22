@@ -19,3 +19,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+### Adding a Remote Repository with a Proper Name
+
+When adding a remote repository, it's standard to name the main remote as `origin`. This convention helps in simplifying Git commands and collaboration.
+
+```bash
+# Add the remote repository named 'origin' (replace <REMOTE_URL> with your repository URL)
+git remote add origin <REMOTE_URL>
+
+# Verify the remote has been added correctly
+git remote -v
