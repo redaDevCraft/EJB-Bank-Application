@@ -1,0 +1,14 @@
+com\bank\App.class
+com\bank\servlets\LoginServlet.class
+com\bank\sessions\BankServiceLocal.class
+com\bank\sessions\BankService.class
+com\bank\filters\AuthFilter.class
+com\bank\types\CompteType.class
+com\bank\servlets\LogoutServlet.class
+com\bank\types\TransactionType.class
+com\bank\types\ClientType.class
+com\bank\beans\Client.class
+com\bank\servlets\BankServlet.class
+com\bank\beans\Transaction.class
+com\bank\beans\ClientAccount.class
+com\bank\beans\Compte.class

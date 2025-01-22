@@ -1,0 +1,36 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <display-name>FSTBank</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>BankServlet</servlet-name>
+        <servlet-class>com.bank.servlets.BankServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.bank.servlets.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BankServlet</servlet-name>
+        <url-pattern>/BankServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>com.bank.filters.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>
