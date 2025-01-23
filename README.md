@@ -5,7 +5,7 @@
 The **EJB Bank Application** is a Java-based Enterprise JavaBeans (EJB) web application designed to manage bank accounts, clients, and transactions. It offers functionalities such as account creation, deposits, withdrawals, and money transfers, ensuring secure and efficient banking operations.
 
 ## Table of Contents
-
+- [ScreenShots](#ScreenShots)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -15,7 +15,17 @@ The **EJB Bank Application** is a Java-based Enterprise JavaBeans (EJB) web appl
 - [Contributing](#contributing)
 - [License](#license)
 
+ ## ScreenShots
+
+![bank](https://github.com/user-attachments/assets/2d26a179-f187-469c-a817-a31c41e35ff2)
+ ![bank_dashboard](https://github.com/user-attachments/assets/09c6cd2e-6f45-4011-8895-13dcfb060109)
+  ![bank_transaction](https://github.com/user-attachments/assets/5799d168-13b8-4aba-9f77-de0b5383a359)
+
+
+
+
 ## Prerequisites
+
 
 Before setting up the project, ensure you have the following installed on your machine:
 
